@@ -14,8 +14,8 @@ import scipy.optimize as optimize
 input_file = sys.argv[1]
 event_type = sys.argv[2]
 site_wc_contrib = sys.argv[3]
-output_file = 'results_' + input_file + '_' + event_type + '_' + site_wc_contrib + '.csv'
-mode = 'site'
+mode = 'cputype'
+output_file = 'results_' + mode + '_' + input_file + '_' + event_type + '_' + site_wc_contrib + '.csv'
 
 df = pd.read_csv(input_file + '.csv',
                  names=['jeditaskid',
@@ -37,13 +37,15 @@ df = pd.read_csv(input_file + '.csv',
                  )
 
 # Find sites contributing more than a given fraction to the total wall-clock
-grouped = df[df.processingtype == event_type].groupby(['site'], as_index=False)
+grouped = df[df.processingtype == event_type].groupby([mode], as_index=False)
 tot_wc = grouped['wc'].sum()
 a = tot_wc.sort_values('wc', ascending=False)
 bigtotal_wc = a.wc.sum()
-big_sites = a[a.wc > bigtotal_wc * float(site_wc_contrib)].site.tolist()
+big_sites = a[a.wc > bigtotal_wc * float(site_wc_contrib)][mode].tolist()
 
-grouped = df.groupby(['processingtype', 'jeditaskid', 'site'], as_index=False, sort=False)
+site_ref = big_sites[0]
+
+grouped = df.groupby(['processingtype', 'jeditaskid', mode], as_index=False, sort=False)
 
 data = defaultdict(OrderedDict)
 for (p, j, s), g in grouped:
@@ -149,7 +151,8 @@ check = optimize.check_grad(func2, grad, k_ini)
 print check
 
 # Conventionally, use CERN-PROD as reference (k-factor is 1.)
-ref = smap['CERN-PROD']
+#ref = smap['CERN-PROD']
+ref = smap[site_ref]
 cons = ({'type': 'eq', 'fun': lambda x: x[ref] - 1})
 
 # Execute fit
