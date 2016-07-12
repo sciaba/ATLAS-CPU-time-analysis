@@ -1,0 +1,81 @@
+AMD Opteron(TM) Processor 6212
+AMD Opteron(TM) Processor 6220
+AMD Opteron(TM) Processor 6234,402.,48
+AMD Opteron(TM) Processor 6238
+AMD Opteron(TM) Processor 6272
+AMD Opteron(TM) Processor 6274,484.,64
+AMD Opteron(TM) Processor 6276,510.,64
+AMD Opteron(tm) Processor 6128
+AMD Opteron(tm) Processor 6134
+AMD Opteron(tm) Processor 6168,193.,24
+AMD Opteron(tm) Processor 6320
+AMD Opteron(tm) Processor 6376
+AMD Opteron(tm) Processor 6378,558.,64
+Dual-Core AMD Opteron(tm) Processor 2216
+Dual-Core AMD Opteron(tm) Processor 2218
+Dual-Core AMD Opteron(tm) Processor 2220
+Intel Core i7 9xx (Nehalem Class Core i7)
+Intel Xeon E312xx (Sandy Bridge)
+Intel(R) Core(TM)2 Quad CPU    Q8300  @ 2.50GHz
+Intel(R) Xeon(R) CPU            5150  @ 2.66GHz
+Intel(R) Xeon(R) CPU           E5345  @ 2.33GHz
+Intel(R) Xeon(R) CPU           E5410  @ 2.33GHz
+Intel(R) Xeon(R) CPU           E5420  @ 2.50GHz,72.,8
+Intel(R) Xeon(R) CPU           E5430  @ 2.66GHz
+Intel(R) Xeon(R) CPU           E5440  @ 2.83GHz,75.,8
+Intel(R) Xeon(R) CPU           E5450  @ 3.00GHz,78.,8
+Intel(R) Xeon(R) CPU           E5472  @ 3.00GHz
+Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz,125.,16
+Intel(R) Xeon(R) CPU           E5540  @ 2.53GHz137.,16
+Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz
+Intel(R) Xeon(R) CPU           E5630  @ 2.53GHz,141.,16
+Intel(R) Xeon(R) CPU           E5645  @ 2.40GHz,187.,24
+Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+Intel(R) Xeon(R) CPU           L5420  @ 2.50GHz
+Intel(R) Xeon(R) CPU           L5430  @ 2.66GHz
+Intel(R) Xeon(R) CPU           L5520  @ 2.27GHz
+Intel(R) Xeon(R) CPU           L5640  @ 2.27GHz,174.,24
+Intel(R) Xeon(R) CPU           X5355  @ 2.66GHz
+Intel(R) Xeon(R) CPU           X5550  @ 2.67GHz,112.,8
+Intel(R) Xeon(R) CPU           X5560  @ 2.80GHz
+Intel(R) Xeon(R) CPU           X5570  @ 2.93GHz
+Intel(R) Xeon(R) CPU           X5650  @ 2.67GHz,210.,24
+Intel(R) Xeon(R) CPU           X5660  @ 2.80GHz
+Intel(R) Xeon(R) CPU           X5670  @ 2.93GHz
+Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+Intel(R) Xeon(R) CPU E5-2450 0 @ 2.10GHz
+Intel(R) Xeon(R) CPU E5-2450 v2 @ 2.50GHz
+Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz,215.,24
+Intel(R) Xeon(R) CPU E5-2620 v2 @ 2.10GHz
+Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz
+Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz,355.,32
+Intel(R) Xeon(R) CPU E5-2630L 0 @ 2.00GHz
+Intel(R) Xeon(R) CPU E5-2630L v2 @ 2.40GHz
+Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+Intel(R) Xeon(R) CPU E5-2640 v2 @ 2.00GHz
+Intel(R) Xeon(R) CPU E5-2640 v3 @ 2.60GHz,372.,32
+Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz,262.,32
+Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz,358.,32
+Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz,444.,40
+Intel(R) Xeon(R) CPU E5-2660 0 @ 2.20GHz,
+Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz,399.,40
+Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz,470.,40
+Intel(R) Xeon(R) CPU E5-2665 0 @ 2.40GHz,261.,16
+Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz,350.,32
+Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz,411.,40
+Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz,510.,48
+Intel(R) Xeon(R) CPU E5-2680 0 @ 2.70GHz,334.,32
+Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz,460.,40
+Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,550.,48
+Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz
+Intel(R) Xeon(R) CPU E5-2697 v3 @ 2.60GHz,672.,56
+Intel(R) Xeon(R) CPU E5-4620 0 @ 2.20GHz
+Intel(R) Xeon(TM) CPU 3.20GHz
+QEMU Virtual CPU version (cpu64-rhel6)
+Quad-Core AMD Opteron(tm) Processor 2350
+Quad-Core AMD Opteron(tm) Processor 2356
+Quad-Core AMD Opteron(tm) Processor 8356
+Six-Core AMD Opteron(tm) Processor 2431
+Six-Core AMD Opteron(tm) Processor 2435
+Westmere E56xx/L56xx/X56xx (Nehalem-C)
